@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+Header{
+    width: 100%;
+    height: 50px;
+    position:absolute;
+}
+.NavContainer{
+    width: 100%;
+    height: 35px;
+    border: 5px solid whitesmoke;
+    position: absolute;
+}
+nav{
+    margin-left: 60%;
+    width: 25%;
+    margin-top: -15px;
+    position: absolute;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+nav ul li a i{
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+.firsth3{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.Info{
+    width: 100%;
+}
+.Plane{
+    margin-top: 100px;
+    width: 700px;
+    height: 400px;
+    margin-left: 5%;
+    border: 2px solid whitesmoke;
+}
+.Picture{
+    position: absolute;
+    margin-top: 48px;
+    width: 100%;
+    height: 350px;
+    background: url(image2.png) center / cover no-repeat;
+}
+.line1{
+    background: whitesmoke;
+    height: 4px;
+    width: 100%;
+    margin-top: 348px;
+    position: absolute;
+}
+.divcon{
+    position: absolute;
+    border-radius: 25px;
+    margin-top: 18%;
+    width: 60%;
+    height: 125px;
+    background-color: white;
+    border: 4px solid whitesmoke;
+    box-shadow: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.opt1{
+    border-left: 4px solid whitesmoke;
+    border-right: 4px solid whitesmoke;
+    width: 150px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 10px;
+    position: absolute;
+}
+.opt2{
+    border-right: 4px solid whitesmoke;
+    width: 150px;
+    height: 100px;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 10px;
+}
+.opt3{
+    border-right: 4px solid whitesmoke;
+    width: 150px;
+    height: 100px;
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 10px;
+}
+.opt4{
+    border-right: 4px solid whitesmoke;
+    width: 150px;
+    height: 100px;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 10px;
+}
+.opt5{
+    border-right: 4px solid whitesmoke;
+    width: 150px;
+    height: 100px;
+    margin-left: 65%;
+    position: absolute;
+    margin-top: 10px;
+}
+.opt6{
+    border-right: 4px solid whitesmoke;
+    width: 150px;
+    height: 100px;
+    margin-left:80%;
+    position: absolute;
+    margin-top: 10px;
+}
+#couch{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-top: 15px;
+    position: absolute;
+} 
+.opt1 a h3{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+#suitcase{
+    padding: 11px;
+    background-color: grey;
+    border-radius: 25px;
+    margin-left: 55px;
+    margin-top: 15px;
+    position: absolute;
+}
+.opt2 a h3{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+#bed{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-top: 15px;
+    position: absolute;
+}
+.opt3 a h3{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 20px;
+    font-weight: 300;
+} 
+#car{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-top: 15px;
+    position: absolute;
+}
+.opt4 a h3{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 32px;
+    font-weight: 300;
+} 
+#shield{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-top: 15px;
+    position: absolute;
+}
+.opt5 a h3{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 12px;
+    font-weight: 300;
+}
+#gift{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-top: 15px;
+    position: absolute;
+}
+.opt6 a h3{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 33px;
+    font-weight: 300;
+}
+.plans{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    background-color: none;
+    margin-top: 25%;
+}
+.plands div{
+    display: flex;
+}
+.offer1{
+    width: 300px;
+    height: 500px;
+    margin-left: 12.5%;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    border: 5px solid whitesmoke;
+}
+.offer2{
+    width: 300px;
+    height: 500px;
+    margin-left: 32.5%;
+    margin-top: -500px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    border: 5px solid whitesmoke;
+}
+.offer3{
+    width: 300px;
+    height: 500px;
+    margin-left: 52.5%;
+    margin-top: -510px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    border: 5px solid whitesmoke;
+}
+.offer4{
+    width: 300px;
+    height: 500px;
+    margin-left: 72.5%;
+    margin-top: -510px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    border: 5px solid whitesmoke;
+    margin-bottom: 50px;
+}
+.InfoCon2{
+    margin-top: 50%;
+    height: '';
+}
+.tickets{
+    margin-top: 115px;
+    margin-left: 15%;
+    width: 600px;
+    height: 300px;
+}
+.bridge{
+    margin-left: 100px;
+    width: 600px;
+    height: 300px;
+}
+.p1div{
+    margin-top: 25px;
+    margin-left: 20%;
+    position: absolute;
+    height: 150px;
+    width: 400px;
+    background-color: transparent;
+    border-top: 4px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;
+}
+.p1{
+ font-size: 19px;
+ text-align: center;
+ padding: 10px;
+ font-style: italic;
+}
+.p2div{
+    margin-top: 25px;
+    margin-left: 57%;
+    height: 150px;
+    width: 400px;
+    background-color: transparent;
+    border-top: 4px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;
+}
+.p2{
+ font-size: 19px;
+ text-align: center;
+ padding: 10px;
+ font-style: italic;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin-bottom: 0; 
+}
+
+.footer-content ul {
+    list-style-type: none;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box {
+    margin-left: 100px;
+    width: 500px;
+    height: 100px;
+    border-radius: 25px;
+    margin: 20px; 
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .box .content {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
